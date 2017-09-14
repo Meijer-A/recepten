@@ -1,0 +1,71 @@
+@font-face {
+  font-family: roboto;
+  src: url(fonts/Roboto-Bold.ttf);
+}
+h1{
+  font-family: titel;
+  margin-top: 0px;
+  font-size: 90px;
+  color: white;
+}
+p{
+  margin: 0px;
+}
+li{
+  text-decoration: none;
+}
+body{
+ background-image: url(fotos/blackboard.jpg);
+ background-size: cover;
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+  padding-left: 12%;
+  padding-right: 12%;
+  text-align: center;
+
+}
+a:link{
+  text-decoration: none;
+  color: white;
+}
+a:hover{
+  text-decoration: none;
+  color: white;
+}
+a:visited{
+  text-decoration: none;
+  color: white;
+}
+a:active{
+  text-decoration: none;
+  color: white;
+}
+header{
+  text-align: center;
+}
+article{
+  font-family: roboto;
+  font-size: 18px;
+  color: white;
+  margin: auto;
+  margin-top: 20px;
+  margin-left: 50PX;
+  margin-right: 50px
+}
+article p{
+  text-align: left;
+}
+#ingredienten
+#pizzaintro{
+  width: 350px;
+  height: 400px;
+  float: right;
+}
+
+section{
+  width: 80vh;
+  display: flex;
+  justify-content: space-around;
+}
