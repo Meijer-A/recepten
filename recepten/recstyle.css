@@ -1,24 +1,48 @@
+/*font*/
+@font-face {
+  font-family: titel;
+  src: url(fonts/Runners_bold.ttf);
+}
 @font-face {
   font-family: roboto;
-  src: url(fonts/Roboto-Bold.ttf);
+  src: url(fonts/PG_RoofRunners.ttf);
 }
+
+/*text*/
 h1{
   font-family: titel;
   margin-top: 0px;
   font-size: 90px;
   color: white;
+  margin-bottom: 40px;
+}
+h2{
+  color: white;
+  font-family: titel;
+}
+h3{
+  color: white;
+  font-family: titel;
 }
 p{
+  color: white;
+  font-size: 20px;
+  font-family: roboto;
   margin: 0px;
 }
 li{
+  color: white;
   text-decoration: none;
+  font-family: roboto;
 }
+
+/*allen text*/
 body{
  background-image: url(fotos/blackboard.jpg);
  background-size: cover;
 }
 nav{
+  font-family: titel;
   display: flex;
   justify-content: space-around;
   padding-left: 12%;
@@ -46,26 +70,54 @@ header{
   text-align: center;
 }
 article{
-  font-family: roboto;
-  font-size: 18px;
-  color: white;
   margin: auto;
   margin-top: 20px;
   margin-left: 50PX;
-  margin-right: 50px
-}
-article p{
-  text-align: left;
-}
-#ingredienten
-#pizzaintro{
-  width: 350px;
-  height: 400px;
-  float: right;
+  margin-right: 50px;
 }
 
-section{
-  width: 80vh;
-  display: flex;
-  justify-content: space-around;
+/*home*/
+article.hoofdtext{
+  margin: auto;
+  margin-top: 20px;
+  margin-left: 50PX;
+  margin-right: 50px;
+  text-align: center;
+}
+article.hoofdtext img{
+  width: 250px;
+  height: auto;
+}
+
+/*over*/
+article.inhoud{
+  margin-top: 4%;
+}
+article.inhoud img{
+  float: right;
+  width: 350px;
+  height: auto;
+}
+
+/*benodigdheden*/
+article.benodigdheden img{
+  float: left;
+  width: 500px;
+  height: auto;
+}
+article.benodigdheden h3{
+  float: right;
+  width: 50%;
+  margin: 0px;
+}
+article.benodigdheden ul{
+  float: right;
+  width: 50%;
+}
+
+/*bereiding*/
+article.bereiding img{
+  float: right;
+  width: 450px;
+  height: auto;
 }
