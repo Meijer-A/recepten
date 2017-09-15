@@ -98,6 +98,10 @@ article.inhoud img{
   width: 350px;
   height: auto;
 }
+article.inhoud p{
+  margin-top: 30px;
+}
+
 
 /*benodigdheden*/
 article.benodigdheden img{
